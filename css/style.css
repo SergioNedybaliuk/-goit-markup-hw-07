@@ -447,3 +447,143 @@ ol {
 .first-button:focus {
   background-color: var(--filter-color);
 }
+
+/* *SECTION 2 */
+
+.section-padding {
+  /* padding: 120px 0; */
+}
+
+.sec-three {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color-tittle);
+  margin-bottom: 72px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.strategy-margin {
+  margin-top: 96px;
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+    display: flex;
+  }
+  .strategy-margin {
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+
+  .strategy-margin {
+    display: none;
+  }
+}
+
+.cards-features {
+  margin-left: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  /* .cards-features {
+    margin-left: auto;
+    margin-left: auto;
+    / width: calc((100% - 32px) / 2);
+  } */
+}
+
+@media screen and (min-width: 1157px) {
+  .cards-features {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
+.cards-features:not(:last-child) {
+  /* margin-right: 24px; */
+}
+
+.cards-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--filter-bg-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1157px) {
+  .cards-icons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .cards-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--filter-bg-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+}
+
+.icons-features {
+  margin: 24px 100px;
+  background: var(--filter-bg-color);
+  border-radius: 4px;
+}
+
+.sec-h-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-tittle);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .sec-h-two {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .sec-h-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+}
+
+.sec-p-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-tittle);
+}
