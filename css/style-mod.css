@@ -431,6 +431,7 @@ ol {
 .team-li:not(:last-child) {
   margin-right: 24px;
 }
+
 .buttons {
   display: flex;
   margin: 0;
@@ -451,6 +452,7 @@ ol {
   row-gap: 48px;
   column-gap: 24px;
 }
+
 .cards-li:nth-child(3n + 3) {
   margin-right: 0;
   padding-right: 0;
