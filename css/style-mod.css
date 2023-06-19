@@ -136,7 +136,7 @@ ol {
 }
 .mail-tel:hover,
 .mail-tel:focus {
-  color: var(--filter-color);
+  color: vstrategy-marginar(--filter-color);
 }
 
 /* відступ у секціях*/
@@ -323,6 +323,7 @@ ol {
 }
 
 /* !-- блок з картинками --> */
+
 .block {
   display: block;
 }
