@@ -125,6 +125,7 @@ ol {
 .site-nav.current::after {
   color: var(--filter-color);
   bottom: -1px;
+  opacity: 1;
 }
 
 .adress-nav {
