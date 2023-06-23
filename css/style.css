@@ -83,10 +83,10 @@ ol {
 
 @media screen and (min-width: 1158px) {
   .border-header {
-    padding-top: 24px;
+    /* padding-top: 24px;
     padding-bottom: 24px;
-    max-width: 1158px;
-    height: 72px;
+    /* max-width: 1158px; */
+    /* height: 72px; */
     margin: auto;
   }
 }
@@ -361,7 +361,7 @@ ol {
 
 @media screen and (min-width: 768px) {
   .overlay {
-    max-width: 768px;
+    max-width: 1158px;
     height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -728,6 +728,7 @@ ol {
 }
 
 .team-li {
+  background: var(--filter-bg-color);
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -848,7 +849,7 @@ ol {
 /** CUSTOMERS  */
 
 .sec-fon {
-  background: var(--filter-bg-color);
+  /* background: var(--filter-bg-color); */
   padding: 96px 0;
 }
 
